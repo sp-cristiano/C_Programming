@@ -54,6 +54,7 @@ int main(){
     This code check if a number is possitive.
     */
     a = 0;
+    printf("\n \n   ====== This code check if a number is possitive. ====== \n");
     printf("\n Enter a number: ");
     scanf("%d", &a);
     if(a>0){
@@ -62,6 +63,21 @@ int main(){
     else{
         printf("\n The number %d is negative", a);
     }
+
+    /**
+    This code will determine even and odd numbers
+    */
+    int num;
+    printf("\n \n ====== This code will determine even and odd numbers ====== \n");
+    printf("\n Enter a number to check. \n");
+    scanf("%d",&num);
+    if((num%2)==0){
+        printf("%d is even.", num);
+    }
+    else{
+        printf("%d is odd.", num);
+    }
+
 
 
 

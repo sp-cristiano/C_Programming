@@ -5,13 +5,14 @@ This function will check if a number is positive.
 
 int main(){
     int a = 0;
+    printf("\n \n   ====== This code check if a number is possitive. ====== \n");
     printf("\n Enter a number: ");
     scanf("%d", &a);
     if(a>0){
         printf("\n The number %d is positive", a);
     }
     else{
-        printf("\n The number &d is negative", a);
+        printf("\n The number %d is negative", a);
     }
     return 0;
 }
