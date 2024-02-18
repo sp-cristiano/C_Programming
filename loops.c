@@ -8,7 +8,7 @@ int main()
     printf("\n ====== This will use the \"for loop format\" to print numbers from 0 to 9 ====== \n");
     for(i=0; i<10; i++)
     {
-        printf("\n %d \n", i);
+        printf("\n %d in for loop\n", i);
     }
 
     printf("\n \n ====== This will use the \"while loop format\" to print numbers from 3 to 9 ====== \n");
@@ -16,7 +16,7 @@ int main()
 
     while(p<10)
     {
-        printf("\n %d \n", p);
+        printf("\n %d in while loop \n", p);
         p++;
     }
 
@@ -25,7 +25,7 @@ int main()
     do
     {
         //printf("\n This is the printed statement \n");
-        printf("\n \n Value of q is %d \n", q);
+        printf("\n \n Value of q is %d for do while loop\n", q);
         q++;
     }
     while(q<10 && q>=2);
